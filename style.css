@@ -74,6 +74,11 @@ img {
 
 
 
+
+
+
+
+
 /* 420px */
 
 
@@ -94,8 +99,34 @@ img {
   #lezioni .row {
     background-color: #f2f2cd;
   }
-
-  
-  
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 25px;
+  }
+  body {
+    margin: 0;
+  }
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    width: 100%;
+  }
+  #steps .row {
+    background-color: #fff;
+  }
+  h3 {
+    margin: 0;
+  }
+  #why .row {
+    background-color: #f2f2cd;
+  }
+  img {
+    padding-top: 30px;
+  }
+  .right, .third {
+    padding-bottom: 15px;
+  }
+  #why .row>.first, #why .row>.second, #why .row>.third {
+    margin-top: 20px;
+  }
 
 }
